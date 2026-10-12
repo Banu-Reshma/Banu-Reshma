@@ -16,14 +16,14 @@ and Cloud Authentication Service.
 
 ### Repositories here
 Everything in this account is built from **synthetic data**. Nothing from my employer or any
-customer environment appears in these repos — the scenarios are reconstructed, the logs are
+customer environment appears in these repos - the scenarios are reconstructed, the logs are
 generated.
 
 | Repo | What it is |
 |---|---|
-| `iam-support-runbooks` | Troubleshooting runbooks for the failures I see most: token resync, node secret mismatch, LDAP sync failure, SAML redirect loops, certificate expiry |
-| `auth-log-triage` | Python CLI that reads authentication/RADIUS logs and summarises *why* logins failed, instead of making you read 10,000 lines |
-| `mfa-push-fatigue-lab` | A small demo of push-bombing against plain approve/deny MFA, and how number matching removes the attack |
+| [`auth-log-triage`](https://github.com/Banu-Reshma/auth-log-triage) | Python CLI that reads an authentication log and says *why* logins failed - one user, one node, or one source address - before you read a single line. 11 tests, standard library only |
+
+More coming as I build it. I would rather show one thing that works than a list of things planned.
 
 ### Elsewhere
 - Portfolio: https://reshmabanu.great-site.net
